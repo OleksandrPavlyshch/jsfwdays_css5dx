@@ -477,6 +477,15 @@
       <iframe src="https://oleksandrpavlyshch.github.io/device_orientation_parallax_demo/" frameborder="0" class="cover-frame"></iframe>
     </section>
     <section class="slide">
+      <h2>requestAnimationFrame</h2>
+      <pre><code>var animationFrameId;
+function repeatOften() {
+	//magic
+	 	animationFrameId = requestAnimationFrame(repeatOften);
+}
+cancelAnimationFrame(animationFrameId);</code></pre>
+    </section>
+    <section class="slide">
       <h2>Event throttle</h2>
       <pre><code>var lastMove = 0;
 var myEventInterval = 40;//for example
@@ -487,8 +496,6 @@ element.addEventListener( "mousemove", function() {
 	}
 });</code></pre>
     </section>
-    
-    
     <section class="slide link-slide">
       <div class="half contacts">
         <p class="name">Александр Павлыщ</p>
