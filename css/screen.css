@@ -95,7 +95,7 @@ body { font-family: Arial, sans-serif; font-size: 16px; line-height: 1.25; min-w
 
 .link-slide { padding: 0; text-align: center; font-size: 60px; }
 
-.link-slide_header { font-size: 73px !important; line-height: 1.3 !important; font-weight: 700 !important; padding-left: 30px; }
+.link-slide_header { font-size: 65px !important; line-height: 1.3 !important; font-weight: 700 !important; padding-left: 30px; }
 
 .link-slide_link { font-size: 70px !important; background: none !important; }
 
@@ -126,6 +126,8 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 .backface_header .shout:after { display: none; }
 
 .backface_header h2 { font-size: 128px !important; text-shadow: 3px 4px 10px #000; }
+
+.backface_header h2 { text-shadow: 3px 4px 27px #000; }
 
 .backface_header .shout { text-align: left; }
 
@@ -272,6 +274,8 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 .scale-header-bg { position: absolute; z-index: 1; width: 100%; height: 100%; left: 0; top: 0; background-image: url("../img/scale-hulk-and-antmen.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
 
 .scale-header .shout { position: relative; z-index: 10; }
+
+.shower-logo { background-image: url("../img/shower-logo.svg"); background-size: contain; background-repeat: no-repeat; background-position: 50% 50%; background-size: 500px 500px; }
 
 .scale-demo_scale-x { -webkit-transform: scaleX(1.5); -ms-transform: scaleX(1.5); transform: scaleX(1.5); }
 
