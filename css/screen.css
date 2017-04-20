@@ -263,6 +263,22 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 @keyframes rotate-3d { from { -webkit-transform: rotate3d(1, 1, 1, 0); transform: rotate3d(1, 1, 1, 0); }
   to { -webkit-transform: rotate3d(1, 1, 1, 360deg); transform: rotate3d(1, 1, 1, 360deg); } }
 
+.rotete3d_code-value { font-size: 30px; color: #4d4d4c; position: absolute; height: 30px; line-height: 30px; top: 390px; -webkit-transform-origin: 50% 100%; -ms-transform-origin: 50% 100%; transform-origin: 50% 100%; }
+
+.rotete3d_code-value:before { content: ''; position: absolute; bottom: 100%; left: 50%; width: 30%; margin-left: -15px; height: 50px; background: url("../img/arrow.png") 50% 50% no-repeat; background-size: contain; }
+
+.rotete3d_code-value b { font-weight: normal; color: #c82829; }
+
+.rotete3d_code-value.rv1 { left: 514px; }
+
+.rotete3d_code-value.rv1:before { left: 85%; -webkit-transform: rotate(24deg); -ms-transform: rotate(24deg); transform: rotate(24deg); }
+
+.rotete3d_code-value.rv2 { left: 614px; }
+
+.rotete3d_code-value.rv3 { left: 714px; }
+
+.rotete3d_code-value.rv3:before { left: 15%; -webkit-transform: rotate(-24deg); -ms-transform: rotate(-24deg); transform: rotate(-24deg); }
+
 .scale-header { background: url("../img/scale-hulk-and-antmen.jpg") 50% 50% no-repeat; background-size: cover; background-image: none; background-color: #ffffff; background-size: contain; }
 
 .scale-header .shout { padding: 0 50px; text-align: center; }
