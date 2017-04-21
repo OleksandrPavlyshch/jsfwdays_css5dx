@@ -365,13 +365,23 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .skew-half + .skew-half { margin-left: 20%; }
 
-.skew-demo_skew-x { -webkit-transform: skewX(30deg); -ms-transform: skewX(30deg); transform: skewX(30deg); }
+.skew-demo_skew-x { -webkit-transform: skewX(30deg); -ms-transform: skewX(30deg); transform: skewX(30deg); background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 0), #00aaee; background-position: auto auto; background-origin: padding-box; background-size: 43px auto; }
 
 .active .skew-demo_skew-x { -webkit-animation: skew-x 2s linear infinite alternate; animation: skew-x 2s linear infinite alternate; }
 
-.skew-demo_skew-y { -webkit-transform: skewY(30deg); -ms-transform: skewY(30deg); transform: skewY(30deg); }
+.skew-demo_skew-y { -webkit-transform: skewY(30deg); -ms-transform: skewY(30deg); transform: skewY(30deg); background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 0), #00aaee; background-position: auto auto; background-origin: padding-box; background-size: 43px auto; }
 
 .active .skew-demo_skew-y { -webkit-animation: skew-y 4s linear infinite alternate; animation: skew-y 4s linear infinite alternate; }
+
+.heisenberg { max-height: 100%; }
+
+.heisenberg.skew-x { -webkit-transform: skewX(-30deg); -ms-transform: skewX(-30deg); transform: skewX(-30deg); }
+
+.active .heisenberg.skew-x { -webkit-animation: skew-x-reverse 2s linear infinite alternate; animation: skew-x-reverse 2s linear infinite alternate; }
+
+.heisenberg.skew-y { -webkit-transform: skewY(-30deg); -ms-transform: skewY(-30deg); transform: skewY(-30deg); }
+
+.active .heisenberg.skew-y { -webkit-animation: skew-y-reverse 4s linear infinite alternate; animation: skew-y-reverse 4s linear infinite alternate; }
 
 @-webkit-keyframes skew-x { from { -webkit-transform: skewX(0deg); transform: skewX(0deg); }
   to { -webkit-transform: skewX(30deg); transform: skewX(30deg); } }
@@ -379,11 +389,23 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 @keyframes skew-x { from { -webkit-transform: skewX(0deg); transform: skewX(0deg); }
   to { -webkit-transform: skewX(30deg); transform: skewX(30deg); } }
 
+@-webkit-keyframes skew-x-reverse { from { -webkit-transform: skewX(0deg); transform: skewX(0deg); }
+  to { -webkit-transform: skewX(-30deg); transform: skewX(-30deg); } }
+
+@keyframes skew-x-reverse { from { -webkit-transform: skewX(0deg); transform: skewX(0deg); }
+  to { -webkit-transform: skewX(-30deg); transform: skewX(-30deg); } }
+
 @-webkit-keyframes skew-y { from { -webkit-transform: skewY(0deg); transform: skewY(0deg); }
   to { -webkit-transform: skewY(30deg); transform: skewY(30deg); } }
 
 @keyframes skew-y { from { -webkit-transform: skewY(0deg); transform: skewY(0deg); }
   to { -webkit-transform: skewY(30deg); transform: skewY(30deg); } }
+
+@-webkit-keyframes skew-y-reverse { from { -webkit-transform: skewY(0deg); transform: skewY(0deg); }
+  to { -webkit-transform: skewY(-30deg); transform: skewY(-30deg); } }
+
+@keyframes skew-y-reverse { from { -webkit-transform: skewY(0deg); transform: skewY(0deg); }
+  to { -webkit-transform: skewY(-30deg); transform: skewY(-30deg); } }
 
 .skew-text-baner { position: relative; width: 600px; margin: 100px auto 0; text-transform: uppercase; font-family: Helvetica; font-size: 24px; }
 
