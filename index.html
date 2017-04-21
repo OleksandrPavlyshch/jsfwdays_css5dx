@@ -495,12 +495,12 @@
     </section>
     <section class="slide">
       <h2>requestAnimationFrame</h2>
-      <pre><code>var animationFrameId;
+      <pre><code>var frameId;
 function repeatOften() {
 	//magic
-	animationFrameId = requestAnimationFrame(repeatOften);
+	frameId = requestAnimationFrame(repeatOften);
 }
-cancelAnimationFrame(animationFrameId);</code></pre>
+cancelAnimationFrame(frameId);</code></pre>
     </section>
     <section class="slide">
       <h2>Event throttle</h2>
