@@ -155,6 +155,8 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .logo-img + .logo-img { margin-top: 3%; }
 
+.astound_clients { background-color: #343e47; }
+
 .conf-title { background-image: url("../img/title-eng.jpg"); background-repeat: no-repeat; background-position: 50% 50%; background-size: 1070px 640px; }
 
 .matrix-header { background: url("../img/MatrixBluePillRedPill.jpg") 50% 50% no-repeat; background-size: cover; }
