@@ -365,15 +365,15 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .skew-half + .skew-half { margin-left: 20%; }
 
-.skew-demo_skew-x { -webkit-transform: skewX(30deg); -ms-transform: skewX(30deg); transform: skewX(30deg); background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 0), #00aaee; background-position: auto auto; background-origin: padding-box; background-size: 43px auto; }
+.skew-demo_skew-x { overflow: hidden; -webkit-transform: skewX(30deg); -ms-transform: skewX(30deg); transform: skewX(30deg); background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 0), #00aaee; background-position: auto auto; background-origin: padding-box; background-size: 43px auto; }
 
 .active .skew-demo_skew-x { -webkit-animation: skew-x 2s linear infinite alternate; animation: skew-x 2s linear infinite alternate; }
 
-.skew-demo_skew-y { -webkit-transform: skewY(30deg); -ms-transform: skewY(30deg); transform: skewY(30deg); background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 0), #00aaee; background-position: auto auto; background-origin: padding-box; background-size: 43px auto; }
+.skew-demo_skew-y { overflow: hidden; -webkit-transform: skewY(30deg); -ms-transform: skewY(30deg); transform: skewY(30deg); background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 0), #00aaee; background-position: auto auto; background-origin: padding-box; background-size: 43px auto; }
 
 .active .skew-demo_skew-y { -webkit-animation: skew-y 4s linear infinite alternate; animation: skew-y 4s linear infinite alternate; }
 
-.heisenberg { max-height: 100%; }
+.heisenberg { max-height: 86%; vertical-align: middle; }
 
 .heisenberg.skew-x { -webkit-transform: skewX(-30deg); -ms-transform: skewX(-30deg); transform: skewX(-30deg); }
 
